@@ -1,4 +1,4 @@
-const csvUrl = "https://raw.githubusercontent.com/<Rama-Mohammad>/<webscraping-automation>/main/bitcoin_hourly_data.csv";
+const csvUrl = "https://raw.githubusercontent.com/Rama-Mohammad/webscraping-automation/main/bitcoin_hourly_data.csv";
 
 async function fetchCsvData() {
   try {
@@ -6,6 +6,8 @@ async function fetchCsvData() {
     if (!response.ok) {
       throw new Error("Network response was not ok " + response.statusText);
     }
+
+    console.log(response)
     const csvText = await response.text();
     const rows = csvText.trim().split("\n").map(row => row.split(","));
     createTable(rows);
