@@ -1,2 +1,3 @@
 timestamp,price,market_cap,volume_24h,circulating_supply,price_change_24h,bullish_sentiment,bearish_sentiment
-2026-02-26 10:15:36,"$68,050.76",$1.36T,$55.21B,19.99M BTC,4.68% (24h),N/A,N/A
+2026-02-26 10:15:36,"$68,050.76",$1.36T,$55.21B,19.99M BTC,4.68% (24h),,
+2026-02-28 06:58:59,"$63,826.63",$1.27T,$41.48B,19.99M BTC,3.45% (24h),N/A,N/A
